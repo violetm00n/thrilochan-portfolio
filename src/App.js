@@ -604,14 +604,14 @@ const Portfolio = () => {
                 
                 <div className="space-y-4 sm:space-y-6">
                   <a 
-                    href="mailto:thrilochareddy1@gmail.com"
+                    href="mailto:echo.thrilochanvemula@gmail.com"
                     className="group flex items-center gap-4 p-4 sm:p-6 bg-gradient-to-r from-pink-500/10 to-purple-500/10 border border-pink-500/30 rounded-lg hover:border-pink-400 hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-pink-500/30"
                   >
                     <Mail className="text-pink-400 group-hover:animate-pulse flex-shrink-0" size={isMobile ? 20 : 24} />
                     <div>
                       <p className="text-pink-400 font-mono text-xs sm:text-sm uppercase tracking-wider">EMAIL_PROTOCOL</p>
                       <p className={`text-white font-mono ${isMobile ? 'text-sm' : 'text-base'} group-hover:text-pink-200 transition-colors`}>
-                        thrilochareddy1@gmail.com
+                        echo.thrilochanvemula@gmail.com
                       </p>
                     </div>
                   </a>
