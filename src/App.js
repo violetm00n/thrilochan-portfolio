@@ -604,14 +604,14 @@ const Portfolio = () => {
                 
                 <div className="space-y-4 sm:space-y-6">
                   <a 
-                    href="mailto:thrilochareddy1@gmail.com"
+                    href="mailto:echo.thrilochanvemula@gmail.com"
                     className="group flex items-center gap-4 p-4 sm:p-6 bg-gradient-to-r from-pink-500/10 to-purple-500/10 border border-pink-500/30 rounded-lg hover:border-pink-400 hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-pink-500/30"
                   >
                     <Mail className="text-pink-400 group-hover:animate-pulse flex-shrink-0" size={isMobile ? 20 : 24} />
                     <div>
                       <p className="text-pink-400 font-mono text-xs sm:text-sm uppercase tracking-wider">EMAIL_PROTOCOL</p>
                       <p className={`text-white font-mono ${isMobile ? 'text-sm' : 'text-base'} group-hover:text-pink-200 transition-colors`}>
-                        thrilochareddy1@gmail.com
+                        echo.thrilochanvemula@gmail.com
                       </p>
                     </div>
                   </a>
@@ -689,21 +689,27 @@ const Portfolio = () => {
               &lt;THRILOCHAN.EXE/&gt;
             </div>
             <p className={`text-gray-400 font-mono ${isMobile ? 'text-xs' : 'text-sm'} max-w-2xl mx-auto leading-relaxed`}>
-              <span className="text-cyan-400">[EOF]</span> Portfolio compiled successfully. 
+              <span className="text-cyan-400"></span> 
               Ready to build the future, one neural network at a time.
-              <span className="text-pink-400"> | </span>Version 2024.cyber_v1.0
+              <span className="text-pink-400"> | </span>
             </p>
           </div>
           
           <div className="flex justify-center space-x-6 sm:space-x-8 mb-6 sm:mb-8">
             <a 
-              href="mailto:thrilochareddy1@gmail.com"
+               onClick={() => {
+    navigator.clipboard.writeText("echo.thrilochanvemula@gmail.com");
+    alert("Email copied to clipboard!");
+  }}
               className="text-gray-400 hover:text-cyan-400 transition-colors duration-300"
             >
               <Mail size={isMobile ? 20 : 24} />
             </a>
             <a 
-              href="tel:+919014620519"
+               onClick={() => {
+    navigator.clipboard.writeText("+919014620519");
+    alert("Phone number copied to clipboard!");
+  }}
               className="text-gray-400 hover:text-pink-400 transition-colors duration-300"
             >
               <Phone size={isMobile ? 20 : 24} />
@@ -719,9 +725,9 @@ const Portfolio = () => {
           </div>
           
           <div className={`text-gray-500 font-mono ${isMobile ? 'text-xs' : 'text-sm'}`}>
-            <p>&copy; 2024 Thrilochan Reddy. All neural pathways reserved.</p>
+            <p>&copy; 2024 Thrilochan Reddy.</p>
             <p className="mt-2">
-              <span className="text-cyan-400">[COMPILED_WITH]:</span> React • Tailwind • Quantum_Love
+              <span className="text-cyan-400">[COMPILED_WITH]:</span> React • Tailwind • 
             </p>
           </div>
         </div>
