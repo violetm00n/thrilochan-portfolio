@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/thrilochan-portfolio/static/css/main.5c36ca0a.css",
-    "main.js": "/thrilochan-portfolio/static/js/main.caf76013.js",
+    "main.js": "/thrilochan-portfolio/static/js/main.e45c3976.js",
     "static/js/453.319b1e67.chunk.js": "/thrilochan-portfolio/static/js/453.319b1e67.chunk.js",
     "index.html": "/thrilochan-portfolio/index.html",
     "main.5c36ca0a.css.map": "/thrilochan-portfolio/static/css/main.5c36ca0a.css.map",
-    "main.caf76013.js.map": "/thrilochan-portfolio/static/js/main.caf76013.js.map",
+    "main.e45c3976.js.map": "/thrilochan-portfolio/static/js/main.e45c3976.js.map",
     "453.319b1e67.chunk.js.map": "/thrilochan-portfolio/static/js/453.319b1e67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c36ca0a.css",
-    "static/js/main.caf76013.js"
+    "static/js/main.e45c3976.js"
   ]
 }
