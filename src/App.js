@@ -349,8 +349,8 @@ const Portfolio = () => {
 
           <p className={`${isMobile ? 'text-sm' : 'text-lg sm:text-xl md:text-2xl'} mb-8 sm:mb-12 text-gray-300 font-mono max-w-3xl mx-auto leading-relaxed`}>
             <span className="text-cyan-400">[INITIALIZING]</span> Electronics &amp; Computer Engineering Student 
-            <span className="text-pink-400"> | </span>AI/ML Neural Network Specialist
-            <span className="text-purple-400"> | </span>Android Quantum Developer
+            <span className="text-pink-400"> | </span>Worked on AI/ML & Neural Networks, Android and web applications.
+            <span className="text-purple-400"> | </span>Software Developer.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mb-12 sm:mb-16">
@@ -667,7 +667,11 @@ const Portfolio = () => {
                   </div>
                   
                   <div className="pt-4 sm:pt-6">
-                    <button className="group relative px-6 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-pink-500/20 to-purple-500/20 border-2 border-pink-500/50 rounded-lg font-semibold uppercase tracking-wider transition-all duration-300 hover:border-pink-400 hover:scale-105 hover:shadow-2xl hover:shadow-pink-500/50 text-sm sm:text-base">
+                    <button             
+                       onClick={() => {
+    navigator.clipboard.writeText("echo.thrilochanvemula@gmail.com");
+    alert("Email copied to clipboard!");
+  }} className="group relative px-6 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-pink-500/20 to-purple-500/20 border-2 border-pink-500/50 rounded-lg font-semibold uppercase tracking-wider transition-all duration-300 hover:border-pink-400 hover:scale-105 hover:shadow-2xl hover:shadow-pink-500/50 text-sm sm:text-base">
                       <span className="bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
                         INITIALIZE_PROJECT
                       </span>
